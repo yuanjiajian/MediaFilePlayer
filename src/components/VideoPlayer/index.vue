@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
           <img class="thumbnail" />
         </div>
         <div class="rightCon">
-          <p class="title">{{ item.name }}</p>
+          <p class="title" :title="item.name">{{ item.name }}</p>
         </div>
       </div>
     </div>
